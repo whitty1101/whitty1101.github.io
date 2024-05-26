@@ -1,7 +1,7 @@
 /* 根元素的自定義屬性，可以在全局範圍內輕鬆改變設計的顏色、尺寸等 */
 :root {
   --font_family: 'Inter', sans-serif; /* 整個設計的字體 */
-  --font_size: 16px; /* 基礎字體大小 */ 
+  --font_size: 16px; /* 基礎字體大小 */
   --background_color: #000; /* 預設背景顏色 */
   --background_image: url("../img/wallpaper.png"); /* 背景圖片 */
   --image_border_color: #000; /* 圖片邊框顏色 */
@@ -12,13 +12,13 @@
   --description_color: #ebaa31; /* 描述文字顏色 */
   --svg_color: darkseagreen; /* SVG 圖標顏色 */
   --menu_background_color: transparent; /* 導航菜單背景顏色 */
-  --menu_text_color: rgb(196, 162, 162); /* 導航菜單文字顏色 */
+  --menu_text_color: rgb(111, 123, 134); /* 導航菜單文字顏色 */
   --menu_active_text_color: #f1c40f; /* 導航菜單活動狀態時的文字顏色 */
-  --menu_border_color: rgb(196, 162, 162); /* 導航菜單邊框顏色 */
+  --menu_border_color: rgb(162, 180, 196); /* 導航菜單邊框顏色 */
   --menu_border_px: 3px; /* 導航菜單邊框厚度 */
-  --footer_background_color: darkseagreen; /* 頁腳背景顏色 */
+  --footer_background_color: rgb(146, 170, 125); /* 頁腳背景顏色 */
   --footer_text_color: #fff; /* 頁腳文字顏色 */
-  --footer_link_text_color: #f1c40f; /* 頁腳連結文字顏色 */
+  --footer_link_text_color: #ffffff; /* 頁腳連結文字顏色 */
 }
 
 /* 基本體樣式 */
@@ -26,7 +26,7 @@ body {
   font: var(--font_size) var(--font_family); /* 使用變數設定字體和大小 */
   font-weight: 400; /* 字體粗細 */
   line-height: 1.5; /* 行高 */
-  background: var(--background_color) var(--background_image) no-repeat center; /* 設定背景顏色和圖片 */
+  background: linear-gradient(120deg,rgb(255, 255, 135), rgb(146, 193, 255) ) ;/* 設定背景顏色和圖片 */
   min-height: 100vh; /* 最小高度為視窗的高度 */
   display: flex; /* 使用Flexbox布局 */
   flex-direction: column; /* 子元素垂直排列 */
@@ -126,8 +126,9 @@ body {
   padding: 0.5em; /* 內邊距 */
   border-radius: 0.3em; /* 邊框圓角 */
   transition: 0.10s ease; /* 過渡效果 */
-  font-size: 1.1em; /* 字體大小 */
+  font-size: 1.1em ; /* 字體大小 */
   margin: 1em; /* 外邊距 */
+  
 }
 
 /* 頁腳樣式 */

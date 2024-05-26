@@ -5,8 +5,8 @@
         "Nimbus Sans L", Roboto, Noto, "Segoe UI", Arial, Helvetica,
         "Helvetica Neue", sans-serif;
     --mono-font: Consolas, Menlo, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
-    --header-bg: #d19696;
-    --bg: white;
+    --header-bg: ;
+    --bg: rgb(94, 117, 146);
     --nav: #b99797;
     --box-bg: #d8bebe;
     --text: #dcdcdc;
@@ -47,7 +47,7 @@ header {
     top: 0;
     width: 100%;
     text-align: center;
-    border-bottom: var(--border) 1px solid;
+    border-bottom: var(--border)0px solid;
     grid-area: A;
     z-index: 100;
 }
@@ -88,7 +88,7 @@ main {
 .side-nav {
     position: fixed;
     left: 0;
-    top: 8em;
+    top: 9em;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -96,7 +96,7 @@ main {
     width: 18em;
     height: 100%;
     background-color: var(--header-bg);
-    border-right: 1px solid var(--border);
+    border-right: 0px solid var(--border);
 }
 
 nav {
@@ -107,7 +107,7 @@ nav {
   
   nav a,
   nav a:visited {
-      width: 150px;
+      width: 200px;
       height: 50px;
       margin: 0 1rem 1rem 0;
       border: 1px solid var(--border);
@@ -117,6 +117,7 @@ nav {
       align-items: center; /* 垂直居中 */
       justify-content: center; /* 水平居中 */
       text-decoration: none;
+
     }
   
   .side-nav nav a,
