@@ -1,7 +1,7 @@
 /* 根元素的自定義屬性，可以在全局範圍內輕鬆改變設計的顏色、尺寸等 */
 :root {
   --font_family: 'Inter', sans-serif; /* 整個設計的字體 */
-  --font_size: 16px; /* 基礎字體大小 */
+  --font_size: 16px; /* 基礎字體大小 */ 
   --background_color: #000; /* 預設背景顏色 */
   --background_image: url("../img/wallpaper.png"); /* 背景圖片 */
   --image_border_color: #000; /* 圖片邊框顏色 */
