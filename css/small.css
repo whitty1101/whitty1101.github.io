@@ -9,15 +9,15 @@
     --bg: rgb(94, 117, 146);
     --nav: #b99797;
     --box-bg: #d8bebe;
-    --text: #dcdcdc;
+    --text: #3e567c;
     --text-light: #ababab;
     --border: #666;
     --image_border_color: #666;
     --image_border_px: 2px;
     --image_width: 100px;
     --image_height: 100px;
-    --title-text: rgb(58, 104, 112);
-    --description-text: rgb(161, 120, 120);
+    --title-text: rgb(58, 62, 112);
+    --description-text: rgb(59, 96, 97);
 }
 
 html {
